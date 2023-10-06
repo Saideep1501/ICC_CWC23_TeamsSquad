@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@font-face {
+    font-family: myFont;
+    src: url(Fonts/fortune/Fortune.otf);
+}
+@font-face {
+    font-family: myFont1;
+    src: url(Fonts/keep_calm/KeepCalm-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: "Oswald";
+    background-color: #320073;
+    
+}
+
+.Text{
+    font-family: "myFont";
+}
+
+nav{
+    background-color: #FF00A5;
+}
+
+.All-teams{
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    font-family: "Oswald";
+    font-size: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    opacity: 75%;
+}
+
+.All-teams :hover, :focus {
+    transform: scale(1.1);
+}
+
+
+/* Logo and Country Flag */
+
+.Squads{
+    background-color: #320073;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald";
+    border-radius: 75%;
+    margin: 1% 0% 0% 0%;
+    
+}
+
+.CWC, .Flag{
+    margin: 10px;
+    display: inline-flex;
+    justify-content: space-around;
+    float: inline-start;
+}
+
+#Flags{
+    border: 2.5px solid white;
+}
+
+/* Players Card Effect */
+
+
+.Player-card-Ind{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #039ce8;
+}
+
+.Player-card-Aus{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #fffb02;
+}
+
+.Player-card-Eng{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #3329c9d0;
+}
+
+.Player-card-Sa{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #36831f;
+}
+
+.Player-card-Pak{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #437d4e;
+}
+
+.Player-card-Nz{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #141414;
+}
+
+.Player-card-Sl{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #0060c1;
+}
+
+.Player-card-Ban{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #1f8e31ed;
+}
+
+.Player-card-Afg{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #9e2929;
+}
+
+.Player-card-Ned{
+    width: 15%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #320073;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px #f76628;
+}
+
+.Image img{
+    width: 100%;
+    border-radius: 50%;  
+}
+
+.Name-Ind{
+    text-align:center;
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(223, 223, 46);
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Aus{
+    text-align:center;
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 40, 173);
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Eng{
+    text-align:center;
+    color: rgb(224, 223, 223);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 3, 3);
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Sa{
+    text-align:center;
+    color: rgb(20, 20, 20);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #FFD200;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Pak{
+    text-align:center;
+    color: rgb(215, 214, 214);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #005d20;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Nz{
+    text-align:center;
+    color: rgb(24, 24, 24);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #bfbfbf;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Sl{
+    text-align:center;
+    color: rgb(24, 24, 24);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #dedb33;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Ban{
+    text-align:center;
+    color: rgb(220, 220, 220);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #D70A0A;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Afg{
+    text-align:center;
+    color: rgba(255, 255, 255, 0.861);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #0096D2;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.Name-Ned{
+    text-align:center;
+    color: rgb(24, 24, 24);
+    font-family: "myFont1";
+    font-size: 50%;
+    text-wrap: nowrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #4CB5DF;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+body{
+    font-family: "Oswald";
+
+}
+
